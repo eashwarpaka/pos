@@ -1,0 +1,30 @@
+Analyzing 3 items...                                            
+
+warning - Unused import: 'package:flutter_pos_printer_platform_image_3/flutter_pos_printer_platform_image_3.dart' - lib\services\printer_service.dart:3:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\services\printer_service.dart:28:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\printer_service.dart:47:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\printer_service.dart:60:7 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\printer_service.dart:73:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\printer_service.dart:80:11 - avoid_print
+   info - Don't invoke 'print' in production code - lib\services\printer_service.dart:161:7 - avoid_print
+warning - Unused import: 'dart:typed_data' - lib\services\usb_printer_service.dart:1:8 - unused_import
+   info - Don't invoke 'print' in production code - lib\services\usb_printer_service.dart:55:7 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\settings_screen.dart:266:55 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\settings_screen.dart:305:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\settings_screen.dart:348:53 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\settings_screen.dart:427:36 - deprecated_member_use
+   info - Don't use 'BuildContext's across async gaps - lib\ui\screens\settings_screen.dart:579:37 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\settings_screen.dart:602:35 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\settings_screen.dart:643:48 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\settings_screen.dart:655:55 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\settings_screen.dart:655:87 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\settings_screen.dart:790:36 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\settings_screen.dart:863:32 - deprecated_member_use
+warning - The left operand can't be null, so the right operand is never executed - lib\ui\screens\settings_screen.dart:979:45 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\ui\screens\settings_screen.dart:983:105 - dead_null_aware_expression
+warning - The left operand can't be null, so the right operand is never executed - lib\ui\screens\settings_screen.dart:985:105 - dead_null_aware_expression
+   info - Don't use 'BuildContext's across async gaps - lib\ui\screens\settings_screen.dart:987:39 - use_build_context_synchronously
+   info - Don't use 'BuildContext's across async gaps - lib\ui\screens\settings_screen.dart:1009:39 - use_build_context_synchronously
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\ui\screens\settings_screen.dart:1047:32 - deprecated_member_use
+
+26 issues found. (ran in 11.0s)

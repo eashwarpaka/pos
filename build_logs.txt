@@ -1,0 +1,2 @@
+Building Windows application...                                    54.3s
+ΓêÜ Built build\windows\x64\runner\Debug\pos_app.exe
